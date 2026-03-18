@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The Sansiri Library System is a web-based library book rental management system. The system provides member management, book borrowing and returning with fine calculation, and reporting capabilities. The architecture consists of a separate front-end and back-end, organized in `front/` and `back/` directories respectively.
+The Sansiri Library System is a web-based library book rental management system. The system provides member management, book borrowing and returning with fine calculation, and reporting capabilities. The architecture consists of a Vue.js front-end (using `.vue` single-file components) and a .NET Core back-end, organized in `front/` and `back/` directories respectively.
 
 ## Glossary
 
@@ -12,12 +12,12 @@ The Sansiri Library System is a web-based library book rental management system.
 - **Loan**: A record representing a Book borrowed by a Member, including borrow date, due date, and return date.
 - **Fine**: A monetary penalty applied to a Member for returning a Book after the due date.
 - **Catalog**: The collection of all Books available in the Sansiri Library System.
-- **Member_Service**: The back-end module responsible for managing Member registration, updates, and queries.
-- **Book_Service**: The back-end module responsible for managing the Book catalog.
-- **Loan_Service**: The back-end module responsible for processing borrow and return transactions.
-- **Fine_Service**: The back-end module responsible for calculating and managing Fines.
-- **Report_Service**: The back-end module responsible for generating reports and analytics.
-- **Frontend_App**: The front-end web application that provides the user interface for the Sansiri Library System.
+- **Member_Service**: The .NET Core back-end service responsible for managing Member registration, updates, and queries.
+- **Book_Service**: The .NET Core back-end service responsible for managing the Book catalog.
+- **Loan_Service**: The .NET Core back-end service responsible for processing borrow and return transactions.
+- **Fine_Service**: The .NET Core back-end service responsible for calculating and managing Fines.
+- **Report_Service**: The .NET Core back-end service responsible for generating reports and analytics.
+- **Frontend_App**: The Vue.js front-end web application (using `.vue` single-file components) that provides the user interface for the Sansiri Library System.
 
 ## Requirements
 
